@@ -36,6 +36,8 @@
     "gulp-uglify": "^1.2.0"
   },
   "scripts": {
+      "postinstall": "bower install",
+      "build": "gulp",
       "test": "grunt jscs"
   },
   "repository": {
