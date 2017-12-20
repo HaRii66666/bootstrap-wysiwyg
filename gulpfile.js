@@ -12,7 +12,7 @@ var html5lint = require( "gulp-html5-lint" );
 var checkPages = require( "check-pages" );
 
 // Default task
-gulp.task( "default", [ "js", "html", "bootstrap", "links", "minify" ] );
+gulp.task( "default", [ "js", "html", "bootstrap", "minify" ] );
 
 // Lint our JavaScript files
 gulp.task( "js", function() {
